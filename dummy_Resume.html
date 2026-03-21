@@ -4,84 +4,130 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <style>
+      img {
+        float: left;
+        margin-right: 20px;
+      }
+    </style>
   </head>
+
   <body>
-    <!--Header Section-->
-    <table>
-      <tr>
-        <td>
-          <img
-            float="left"
-            src="./images/RudraImage.png"
-            alt="Photo: Rudra Shekhar"
-            width="300"
-          />
-        </td>
-        <td>
-          <h1>Rudra Shekhar</h1>
-          <p><b>A very enthusiast web developer🚀</b></p>
-          <p>Currently learning MERN and Ethical hacking</p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <!--Header Ends Here-->
-    <!--Main begins-->
-    <h2>Education:</h2>
-    <table border="">
-      <thead>
+    <!-- Header Section -->
+    <header>
+      <table>
         <tr>
-          <th>Course</th>
-          <th>University</th>
-          <th>Year</th>
-          <th>Grade</th>
+          <td>
+            <img
+              src="./images/RudraImage.png"
+              alt="Photo: Rudra Shekhar"
+              width="150"
+            />
+          </td>
+          <td>
+            <h1>Rudra Shekhar</h1>
+            <p><b>A very enthusiastic web developer 🚀</b></p>
+            <p>Currently learning MERN and Ethical Hacking</p>
+
+            <ul>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#CWM">Connect With Me</a></li>
+            </ul>
+          </td>
         </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>B.tech CSE</td>
-          <td>YMCA</td>
-          <td>2028</td>
-          <td>--</td>
-        </tr>
-        <tr>
-          <td>12 <sup>th</sup>Class</td>
-          <td>CBSE</td>
-          <td>2023</td>
-          <td>74%</td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>Projects:</h2>
-    <ul>
-        <li>1 <sup>st</sup> Project</li>
-        <p><i>Dummy text</i></p>
+      </table>
+      <hr />
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <!-- Education -->
+      <section id="education">
+        <h2>Education:</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>University</th>
+              <th>Year</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>B.Tech CSE</td>
+              <td>YMCA</td>
+              <td>2028</td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td>12 <sup>th</sup> Class</td>
+              <td>CBSE</td>
+              <td>2023</td>
+              <td>74%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2>Projects:</h2>
         <ul>
-        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium ipsum autem illo eos et ea in omnis tempora harum culpa tempore repudiandae beatae dignissimos ipsam excepturi, aperiam eveniet vero!</p></li>
-        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dicta enim tenetur aliquid odit, nulla tempora sapiente deleniti laudantium voluptatum, iure blanditiis id, pariatur quidem?</p></li>
-        <li><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, recusandae minima ut autem vero cupiditate iure libero enim quos veritatis.</p></li>
+          <li>
+            <!-- FIXED ID -->
+            <article id="project1">
+              <h3>1<sup>st</sup> Project</h3>
+              <p><i>Dummy text</i></p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li>Est dicta enim tenetur aliquid odit.</li>
+                <li>Error, recusandae minima ut autem vero.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article id="project2">
+              <h3>2<sup>nd</sup> Project</h3>
+              <p><i>Dummy text</i></p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li>Est dicta enim tenetur aliquid odit.</li>
+                <li>Error, recusandae minima ut autem vero.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article id="project3">
+              <h3>3<sup>rd</sup> Project</h3>
+              <p><i>Dummy text</i></p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li>Est dicta enim tenetur aliquid odit.</li>
+                <li>Error, recusandae minima ut autem vero.</li>
+              </ul>
+            </article>
+          </li>
         </ul>
-        <li>2 <sup>nd</sup> Project</li>
-        <p><i>Dummy text</i></p>
-        <ul>
-        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium ipsum autem illo eos et ea in omnis tempora harum culpa tempore repudiandae beatae dignissimos ipsam excepturi, aperiam eveniet vero!</p></li>
-        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dicta enim tenetur aliquid odit, nulla tempora sapiente deleniti laudantium voluptatum, iure blanditiis id, pariatur quidem?</p></li>
-        <li><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, recusandae minima ut autem vero cupiditate iure libero enim quos veritatis.</p></li>
-        </ul>
-        <li>3 <sup>rd</sup> Project</li>
-        <p><i>Dummy text</i></p>
-        <ul>
-        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium ipsum autem illo eos et ea in omnis tempora harum culpa tempore repudiandae beatae dignissimos ipsam excepturi, aperiam eveniet vero!</p></li>
-        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dicta enim tenetur aliquid odit, nulla tempora sapiente deleniti laudantium voluptatum, iure blanditiis id, pariatur quidem?</p></li>
-        <li><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, recusandae minima ut autem vero cupiditate iure libero enim quos veritatis.</p></li>
-        </ul>
-    </ul>
-    <!--Main Section end Here-->
-    <!--Fotter Starts Here-->
-    <h2>Connect With Me:-</h2>
-    <p><b>Email</b>-abc@gmail.com</p>
-    <p><b>Github</b>-Git--</p>
-    <p><b>LinkedIN</b>-Linked__IN</p>
-    <!--Fotter Ends Here-->
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h2 id="CWM">Connect With Me:</h2>
+      <p><b>Email:</b> abc@gmail.com</p>
+      <p><b>GitHub:</b> Git--</p>
+      <p><b>LinkedIn:</b> Linked__IN</p>
+      <a href="#">Back To Top</a>
+    </footer>
   </body>
 </html>
