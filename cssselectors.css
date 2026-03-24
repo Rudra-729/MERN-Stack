@@ -1,0 +1,46 @@
+/* 
+selector syntax:
+selector type{
+propertykey: propertyvalue;    
+}
+*/
+
+/* 1. Element Selector */
+
+P {
+  color: red;
+}
+h2 {
+  color: white;
+  background-color: black;
+}
+/* 2.Class Selector */
+
+/* #pId,#pId1{
+    color: gold;
+    font-family: cursive;
+    background: red;
+} */
+
+body {
+  font-family: cursive;
+  /* border: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center; */
+}
+/* 3.Class Selector */
+
+.highliter {
+  background-color: yellow;
+}
+.classc {
+  color: black;
+}
+/* 
+*{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
